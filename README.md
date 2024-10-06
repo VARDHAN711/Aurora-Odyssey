@@ -1,5 +1,4 @@
-# Geomagnetic-Storms
-Aurora Odyssey
+# Aurora Odyssey
 Aurora Odyssey is a web application built using Dash that visualizes solar storms and auroras. It leverages FITS (Flexible Image Transport System) files, primarily used in astronomy, to display 2D heatmaps and 3D surface plots of solar data. This project focuses on the solar storms that occurred in May 2024, showcasing their impact on auroras across the globe.
 
 Table of Contents
