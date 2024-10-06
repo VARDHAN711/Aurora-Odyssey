@@ -1,0 +1,26 @@
+# PowerShell script to download AIA synoptic FITS files
+
+# Define the base URL
+$base_url = "https://jsoc1.stanford.edu/data/aia/synoptic/mostrecent/"
+
+# List of file names (extracted from the HTML you provided)
+$files = @(
+    "AIAsynoptic0094.fits",
+    "AIAsynoptic0131.fits",
+    "AIAsynoptic0171.fits",
+    "AIAsynoptic0193.fits",
+    "AIAsynoptic0211.fits",
+    "AIAsynoptic0304.fits",
+    "AIAsynoptic0335.fits",
+    "AIAsynoptic1600.fits",
+    "AIAsynoptic1700.fits",
+    "AIAsynoptic4500.fits"
+)
+
+# Loop through each file and download it
+foreach ($file in $files) {
+    $url = $base_url + $file
+    $output_file = $file
+    Invoke-WebRequest -Uri $url -OutFile $output_file
+    Write-Output "Downloaded: $file"
+}

@@ -1,0 +1,23 @@
+  FORMAT OF THE SUBSETTED FILE
+    
+    ITEMS                      FORMAT   
+     
+ 1 Year                          I4        
+ 2 Day                           I4        
+ 3 Hour                          I3        
+ 4 Minute                        I3        
+ 5 Field magnitude average, nT   F8.2      
+ 6 BX, nT (GSE, GSM)             F8.2      
+ 7 BY, nT (GSE)                  F8.2      
+ 8 BZ, nT (GSE)                  F8.2      
+ 9 Speed, km/s                   F8.1      
+10 Proton Density, n/cc          F7.2      
+11 Proton Temperature, K         F9.0      
+12 Electric field, mV/m          F7.2      
+13 Plasma beta                   F7.2      
+14 Alfven mach number            F6.1      
+15 AE-index, nT                  I6        
+16 AL-index, nT                  I6        
+17 AU-index, nT                  I6        
+18 SYM/D, nT                     I6        
+19 SYM/H, nT                     I6        
