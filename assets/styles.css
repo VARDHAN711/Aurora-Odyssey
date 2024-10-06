@@ -1,0 +1,42 @@
+/* assets/styles.css */
+body {
+    background: linear-gradient(135deg, #0A0A23, #002B36); /* Dark navy to deep teal gradient */
+    max-width: 100%;
+}
+header{
+    position: relative;
+    height: 170px;
+    max-width: 100%;
+    margin: 0;
+    display: grid;
+    place-items: center;
+    background: linear-gradient(135deg, #0A0A23, #002B36); /* Dark navy to deep teal gradient */
+    padding: 50px;
+    text-align: center;
+}
+#aurora-odyssey{
+    position: relative;
+    margin: 0 0 10px 0;
+    font-family: "Montserrat", sans-serif;
+    font-size: 7vh;
+    letter-spacing: 1vh;
+    color: white; /* Heading color */
+    text-shadow: 2px 2px 8px rgba(0, 255, 127, 0.8); /* Soft glow effect */
+    background: url('/assets/aurora_borialis.avif');
+    background-size: auto 100%;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    animation: shine 4s linear infinite;
+}
+@keyframes shine{
+    from{ 
+        background-position: center 0;
+    }
+    to{
+        background-position: center 200%;
+    }
+}
+.container {
+    margin-top: 20px;
+    max-width: 100%;
+}
