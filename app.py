@@ -55,7 +55,7 @@ carousel = dbc.Carousel(
 app.layout = html.Div([
     html.Header(html.H1("AURORA ODYSSEY",id="aurora-odyssey")),
 
-    html.Video(controls=True, loop=True, src='/assets/INTRO_VIDEO_FINAL.mp4',  style={'width': '100%', 'height': 'auto','border-radius':'5px', 'margin-bottom':'25px','padding':'20px'}),
+    html.Video(controls=True, loop=True, src='/assets/INTRO_VIDEO_FINAL_reduced.mp4',  style={'width': '100%', 'height': 'auto','border-radius':'5px', 'margin-bottom':'25px','padding':'20px'}),
    
     html.H1("Solar Storms of May 2024:",style={'color':'white','padding':'20px'}),
     html.Div([
